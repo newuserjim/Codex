@@ -2,13 +2,23 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>我的網站</title>
+  <title>AMR排程模擬</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>歡迎來到我的網站</h1>
-  <p id="message">這是用於示範的頁面。</p>
-  <button onclick="showMessage()">點我</button>
+  <h1>AMR排程模擬系統</h1>
+  <p>按下按鈕以計算任務排程。</p>
+  <button onclick="runSimulation()">開始模擬</button>
+  <table id="schedule">
+    <thead>
+      <tr>
+        <th>機器人</th>
+        <th>任務</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
   <script src="script.js"></script>
 </body>
 </html>
